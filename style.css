@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0 solid;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header,
+.hero,
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 36px 80px 36px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 24px;
+}
+
+/* This comment is solely here to separate sections that is being worked on */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 18px 36px 80px 36px;
+    height: 300px;
+}
+
+.main-text {
+    color: #F9FAF8;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 8px;
+}
+
+.header-hero {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.secondary-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.button-1 {
+    font-weight: bold;
+    padding: 4px;
+    width: 84px;
+    border-radius: 5px;
+    background-color: #3882F6;
+}
+
+.image-1 {
+    height: auto;
+    width: auto;
+}
+
+
